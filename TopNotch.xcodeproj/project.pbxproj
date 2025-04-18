@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		26232F582DB27EF1005AB7BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26232F3C2DB27EF0005AB7BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26232F432DB27EF0005AB7BB;
+			remoteInfo = TopNotch;
+		};
+		26232F622DB27EF1005AB7BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26232F3C2DB27EF0005AB7BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26232F432DB27EF0005AB7BB;
+			remoteInfo = TopNotch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26232F442DB27EF0005AB7BB /* TopNotch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopNotch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26232F572DB27EF1005AB7BB /* TopNotchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopNotchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26232F612DB27EF1005AB7BB /* TopNotchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopNotchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		26232F462DB27EF0005AB7BB /* TopNotch */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TopNotch;
+			sourceTree = "<group>";
+		};
+		26232F5A2DB27EF1005AB7BB /* TopNotchTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TopNotchTests;
+			sourceTree = "<group>";
+		};
+		26232F642DB27EF1005AB7BB /* TopNotchUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TopNotchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26232F412DB27EF0005AB7BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26232F542DB27EF1005AB7BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26232F5E2DB27EF1005AB7BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26232F3B2DB27EF0005AB7BB = {
+			isa = PBXGroup;
+			children = (
+				26232F462DB27EF0005AB7BB /* TopNotch */,
+				26232F5A2DB27EF1005AB7BB /* TopNotchTests */,
+				26232F642DB27EF1005AB7BB /* TopNotchUITests */,
+				26232F452DB27EF0005AB7BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26232F452DB27EF0005AB7BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26232F442DB27EF0005AB7BB /* TopNotch.app */,
+				26232F572DB27EF1005AB7BB /* TopNotchTests.xctest */,
+				26232F612DB27EF1005AB7BB /* TopNotchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26232F432DB27EF0005AB7BB /* TopNotch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26232F6B2DB27EF1005AB7BB /* Build configuration list for PBXNativeTarget "TopNotch" */;
+			buildPhases = (
+				26232F402DB27EF0005AB7BB /* Sources */,
+				26232F412DB27EF0005AB7BB /* Frameworks */,
+				26232F422DB27EF0005AB7BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				26232F462DB27EF0005AB7BB /* TopNotch */,
+			);
+			name = TopNotch;
+			packageProductDependencies = (
+			);
+			productName = TopNotch;
+			productReference = 26232F442DB27EF0005AB7BB /* TopNotch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26232F562DB27EF1005AB7BB /* TopNotchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26232F6E2DB27EF1005AB7BB /* Build configuration list for PBXNativeTarget "TopNotchTests" */;
+			buildPhases = (
+				26232F532DB27EF1005AB7BB /* Sources */,
+				26232F542DB27EF1005AB7BB /* Frameworks */,
+				26232F552DB27EF1005AB7BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26232F592DB27EF1005AB7BB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				26232F5A2DB27EF1005AB7BB /* TopNotchTests */,
+			);
+			name = TopNotchTests;
+			packageProductDependencies = (
+			);
+			productName = TopNotchTests;
+			productReference = 26232F572DB27EF1005AB7BB /* TopNotchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26232F602DB27EF1005AB7BB /* TopNotchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26232F712DB27EF1005AB7BB /* Build configuration list for PBXNativeTarget "TopNotchUITests" */;
+			buildPhases = (
+				26232F5D2DB27EF1005AB7BB /* Sources */,
+				26232F5E2DB27EF1005AB7BB /* Frameworks */,
+				26232F5F2DB27EF1005AB7BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26232F632DB27EF1005AB7BB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				26232F642DB27EF1005AB7BB /* TopNotchUITests */,
+			);
+			name = TopNotchUITests;
+			packageProductDependencies = (
+			);
+			productName = TopNotchUITests;
+			productReference = 26232F612DB27EF1005AB7BB /* TopNotchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26232F3C2DB27EF0005AB7BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					26232F432DB27EF0005AB7BB = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					26232F562DB27EF1005AB7BB = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 26232F432DB27EF0005AB7BB;
+					};
+					26232F602DB27EF1005AB7BB = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 26232F432DB27EF0005AB7BB;
+					};
+				};
+			};
+			buildConfigurationList = 26232F3F2DB27EF0005AB7BB /* Build configuration list for PBXProject "TopNotch" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26232F3B2DB27EF0005AB7BB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 26232F452DB27EF0005AB7BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26232F432DB27EF0005AB7BB /* TopNotch */,
+				26232F562DB27EF1005AB7BB /* TopNotchTests */,
+				26232F602DB27EF1005AB7BB /* TopNotchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26232F422DB27EF0005AB7BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26232F552DB27EF1005AB7BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26232F5F2DB27EF1005AB7BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26232F402DB27EF0005AB7BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26232F532DB27EF1005AB7BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26232F5D2DB27EF1005AB7BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26232F592DB27EF1005AB7BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26232F432DB27EF0005AB7BB /* TopNotch */;
+			targetProxy = 26232F582DB27EF1005AB7BB /* PBXContainerItemProxy */;
+		};
+		26232F632DB27EF1005AB7BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26232F432DB27EF0005AB7BB /* TopNotch */;
+			targetProxy = 26232F622DB27EF1005AB7BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26232F692DB27EF1005AB7BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26232F6A2DB27EF1005AB7BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		26232F6C2DB27EF1005AB7BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TopNotch/TopNotch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = spuffy.TopNotch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		26232F6D2DB27EF1005AB7BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TopNotch/TopNotch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = spuffy.TopNotch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		26232F6F2DB27EF1005AB7BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = spuffy.TopNotchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopNotch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TopNotch";
+			};
+			name = Debug;
+		};
+		26232F702DB27EF1005AB7BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = spuffy.TopNotchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopNotch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TopNotch";
+			};
+			name = Release;
+		};
+		26232F722DB27EF1005AB7BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = spuffy.TopNotchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TopNotch;
+			};
+			name = Debug;
+		};
+		26232F732DB27EF1005AB7BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = spuffy.TopNotchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TopNotch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26232F3F2DB27EF0005AB7BB /* Build configuration list for PBXProject "TopNotch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26232F692DB27EF1005AB7BB /* Debug */,
+				26232F6A2DB27EF1005AB7BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26232F6B2DB27EF1005AB7BB /* Build configuration list for PBXNativeTarget "TopNotch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26232F6C2DB27EF1005AB7BB /* Debug */,
+				26232F6D2DB27EF1005AB7BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26232F6E2DB27EF1005AB7BB /* Build configuration list for PBXNativeTarget "TopNotchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26232F6F2DB27EF1005AB7BB /* Debug */,
+				26232F702DB27EF1005AB7BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26232F712DB27EF1005AB7BB /* Build configuration list for PBXNativeTarget "TopNotchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26232F722DB27EF1005AB7BB /* Debug */,
+				26232F732DB27EF1005AB7BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26232F3C2DB27EF0005AB7BB /* Project object */;
+}
