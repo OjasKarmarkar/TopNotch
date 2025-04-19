@@ -8,27 +8,31 @@
 import SwiftUI
 
 struct NotchInfoPanelView: View {
+    
+    var notchController: NotchController
+    
     var body: some View {
-        HStack(spacing: 12) {
-            Image(systemName: "star.fill")
-                .foregroundStyle(.yellow)
-                .imageScale(.large)
-
-            VStack(alignment: .leading, spacing: 4) {
-                Text("Hello from the Notch!")
-                    .font(.headline)
-                    .foregroundStyle(.white)
-
-                Text("This is a floating panel.")
-                    .font(.caption)
-                    .foregroundStyle(.gray)
-            }
-
-            Spacer()
+        
+        if notchController.isExpanded{
+            
+            HStack(alignment: .center,spacing: 12) {
+                Image(systemName: "star.fill")
+                    .foregroundStyle(.yellow)
+                    .imageScale(.large)
+                Spacer()
+                    Text("Welcome xD!")
+                        .font(.headline)
+                        
+                        .foregroundStyle(.white)
+                    
+                }
+                            
+            .padding()
+            .background(.black)
+            .cornerRadius(20)
+        }else{
+            
         }
-        .padding()
-        .background(.black)
-        .cornerRadius(20)
     }
 }
 
