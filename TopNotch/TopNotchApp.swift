@@ -7,14 +7,24 @@
 
 import SwiftUI
 
+
 @main
 struct TopNotchApp: App {
     let persistenceController = PersistenceController.shared
+    let eventMonitor = EventMonitor()
+    let volumeObserver = VolumeListener()
 
     var body: some Scene {
-        WindowGroup {
+        
+        MenuBarExtra {
             ContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
+        } label : {
+            Label("Top Notch", systemImage:"_gm")
         }
+        
     }
+    
+
+
 }
