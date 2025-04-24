@@ -13,7 +13,11 @@ import SwiftUI
 @Observable
 class NotchController {
     static let shared = NotchController()
-    var isExpanded:Bool = false
+    
+    var isExpanded:Bool = false;
+    var panelType:NotchContent = .mouseHover;
+    var volume:Float = 0;
+    
     private var newPanel: NSPanel!
     final var notchSize = NSRect(x: 0, y: 0, width: NSScreen.main?.notchFrame?.width ?? 240, height: NSScreen.main?.notchFrame?.height ?? 80)
     let expandedSize = CGSize(width: 400, height: 160)
@@ -31,12 +35,12 @@ class NotchController {
     }
 
     
-    func animatePanel() {
+    func animatePanel(type : NotchContent) {
         let targetSize = isExpanded ? expandedSize : collapsedSize
         let targetFrame = frame(for: targetSize, from: NSScreen.main?.notchFrame ?? .zero)
 
         NSAnimationContext.runAnimationGroup { context in
-            context.duration = 0.45
+            context.duration = 0.4
             context.allowsImplicitAnimation = true
             context.timingFunction = CAMediaTimingFunction(name: .easeInEaseOut)
             
@@ -44,16 +48,17 @@ class NotchController {
         }
     }
 
-    func expandPanel() {
+    func expandPanel(type : NotchContent) {
+        panelType = type;
         if(!isExpanded){
             isExpanded.toggle();
             // Position under notch
-            animatePanel()
+            animatePanel(type: panelType)
             
             // Auto Hide
             DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
                 self.isExpanded.toggle();
-                self.animatePanel();
+                self.animatePanel(type: self.panelType);
             }
             
             
@@ -102,7 +107,7 @@ class NotchController {
     func hidePanel() {
         //newPanel?.close()
         isExpanded = false;
-        animatePanel()
+        animatePanel(type: panelType)
     }
 }
 

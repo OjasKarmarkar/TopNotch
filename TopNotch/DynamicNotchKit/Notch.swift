@@ -16,11 +16,11 @@ struct NotchInfoPanelView: View {
         if notchController.isExpanded{
             
             HStack(alignment: .center,spacing: 12) {
-                Image(systemName: "star.fill")
+                Image(systemName: notchController.panelType.icon)
                     .foregroundStyle(.yellow)
                     .imageScale(.large)
                 Spacer()
-                    Text("Welcome xD!")
+                Text(notchController.panelType.content(level: notchController.volume))
                         .font(.headline)
                         
                         .foregroundStyle(.white)

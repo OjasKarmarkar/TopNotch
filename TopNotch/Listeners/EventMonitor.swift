@@ -22,7 +22,7 @@ class EventMonitor {
             let mouseY = event.locationInWindow.y;
             
             if mouseX >= minX && mouseX <= maxX && minY<=mouseY && mouseY<=maxY {
-                self.notchController.expandPanel();
+                self.notchController.expandPanel(type: NotchContent.mouseHover);
             }
         }
     }

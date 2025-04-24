@@ -14,6 +14,8 @@ import SwiftUI
 class VolumeListener {
     
     var listenerBlock: AudioObjectPropertyListenerBlock?
+    var notchController = NotchController.shared
+
     
     init() {
 
@@ -107,6 +109,8 @@ class VolumeListener {
 //            notch.show(for:2);
             //notch.setContent(title: "\(volume)")
            // notch.show(for : 2);
+            self.notchController.volume = volume;
+            self.notchController.expandPanel(type: NotchContent.soundChange);
             print("Current Volume: \(volume)");
             //notch.hide();
         }
